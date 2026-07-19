@@ -1,7 +1,7 @@
 # Dataverse-Logging-Architecture
 # 🏗️ High-Throughput Dataverse Logging Architecture
 
-![Architecture Diagram](DataverseLogging.jpg)
+![Dataverse-Logging-Architecture](DataverseLogging.png)
 
 ## 📖 Overview
 
