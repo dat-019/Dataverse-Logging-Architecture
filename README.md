@@ -65,8 +65,8 @@ In this architecture, if the Azure Function fails to process a log message a spe
 ## 🚀 Getting Started
 
 1. Provision an Azure Storage Account and create two queues: `log-queue` and `log-queue-poison`.
-2. Import the Power Automate Solution provided in the `/flows` directory.
-3. Deploy the Azure Function from the `/src` directory and configure the `AzureWebJobsStorage` connection string.
+2. Create Power Automate Flow to push the message out (e.g. logging info in JSON) to Azure Storage Queue.
+3. Create new the Azure Function (Queue trigger), and configure the `AzureWebJobsStorage` connection string.
 4. Ensure your Dataverse environment has the required `ApplicationLogs` table.
 
 ---
